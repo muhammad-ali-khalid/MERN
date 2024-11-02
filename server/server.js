@@ -5,7 +5,7 @@ const cors = require("cors");
 
 mongoose
   .connect(
-    "mongodb+srv://ali41mohammad:alimongodb11@cluster0.qxdgz.mongodb.net/"
+    "" //Enter your mongoDB key for visual studio here
   )
   .then(() => console.log("MongoDB is connected successfully"))
   .catch((error) => console.log(error));
